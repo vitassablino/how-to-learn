@@ -14,6 +14,10 @@ h5 {
   border: 1px solid rgb(211, 16, 16);
 }
 
+img {
+  1px solid rgb(211, 16, 16);
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -64,6 +68,7 @@ div {
 .text {
   font-family: "Helvetica Neue", "Arial", sans-serif;
   display: flex;
+  z-index: 1;
 }
 
 .header__title_text {
@@ -126,8 +131,6 @@ div {
 .description {
   display: flex;
   padding: 100px 0;
-
-  /* position: relative; */
 }
 
 .two-columns {
@@ -166,7 +169,6 @@ div {
 .digits {
   display: flex;
   margin: 100px;
-
   flex-direction: column;
   align-items: center;
 }
@@ -196,10 +198,13 @@ div {
 }
 
 .table__card {
-  width: 250px;
   margin-top: 60px;
   display: flex;
   flex-direction: column;
+}
+
+.table__card_theme_white {
+  width: 250px;
 }
 
 .card__title {
@@ -215,4 +220,96 @@ div {
   font-weight: normal;
   margin-top: 20px;
   margin-bottom: 0;
+}
+
+.feynman {
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: 890px;
+}
+
+.feynman__title {
+  margin: 100px auto 0 ;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  width: 648px;
+  text-align: center;
+}
+
+.fenman__subtitle {
+  margin-top: 70px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.feynman__link:hover {
+  text-decoration: underline;
+}
+
+.feynman__img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 867px;
+  height: 637px;
+  opacity: 0.8;
+}
+
+.feynman__img:hover{
+opacity: 1;
+}
+
+.kaufman {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.section__title_theme_dark {
+  margin-top: 90px;
+}
+
+.section__subtitle_theme_dark {
+  margin-bottom: 0;
+}
+
+.table_theme_dark {
+  margin: 0 auto 90px;
+}
+
+.table__card_theme_black {
+  width: 200px;
+}
+
+.kaufman img {
+  position: absolute;
+  top: 0;
+  right: -210px;
+  height: 877px;
+  width: 877px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  min-height: 711px;
 }
