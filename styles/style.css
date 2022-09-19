@@ -18,6 +18,14 @@ img {
   1px solid rgb(211, 16, 16);
 }
 
+footer {
+  1px solid rgb(211, 16, 16);
+}
+
+ul {
+   1px solid rgb(211, 16, 16);
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -33,12 +41,12 @@ div {
   border: 1px solid rgb(211, 16, 16);
 }
 
-.logo {
-  position: absolute;
+.logo {  
   z-index: 2;
 }
 
 .logo__place_header {
+  position: absolute;
   margin-top: 30px;
   margin-left: 64px;
 }
@@ -48,11 +56,8 @@ div {
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
-  /*  background-size: cover;
-  background-position: center; */
   display: flex;
   position: relative;
-  /* выше установили ограничения для секции */
   margin-bottom: 100px;
 }
 
@@ -110,7 +115,6 @@ div {
   opacity: 1;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   position: absolute;
   right: 0;
@@ -119,8 +123,7 @@ div {
   width: 568px;
   background-color: #2f80ed;
 }
-/*
-/* и элемента с модификатором вида ключ-значение */
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -310,6 +313,65 @@ opacity: 1;
 
 .footer {
   background-color: black;
-  color: white;
-  min-height: 711px;
+  color: white;  
+  padding-top: 60px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center; 
+  min-height: 350px;  
+}
+
+.footer__columns {
+  display: flex;
+  width: 90%;  
+  flex-direction: row;
+  justify-content: space-between;     
+}
+
+.footer__column_content_copyright {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+flex-basis: 711px;
+}
+
+.footer__author {
+  margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.footer__column-heading {
+  font-weight: 600;
+}
+
+.footer__column-links {
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin:20px 0 16px 0;
+  padding-left: 0;
+}
+
+.social-networks-png {
+  margin-right: 10px;
+}
+
+.footer__link {
+text-decoration: none;
+color: white;
+}
+
+.footer__link:hover {
+  color: red;
 }
