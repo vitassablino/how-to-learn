@@ -6,4 +6,8 @@
   right: -210px;
   height: 877px;
   width: 877px;
+  animation-name: rotation;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }

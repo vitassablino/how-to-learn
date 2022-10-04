@@ -1,0 +1,7 @@
+.cards {
+  display: flex;
+  /*   justify-content: space-between; */
+  min-width: 920px;
+  padding: 0;
+  margin: 0;
+}

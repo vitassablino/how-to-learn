@@ -2,8 +2,10 @@
   margin: 0;
   text-decoration: none;
   color: #2f80ed;
+  transition: opacity 1.5s ease;
 }
 
 .header__link:hover {
   text-decoration: underline;
+  opacity: 0.5;
 }

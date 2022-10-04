@@ -2,8 +2,10 @@
   margin: 0;
   text-decoration: none;
   color: white;
+  transition: opacity 1.5s ease;
 }
 
 .footer__column-link:hover {
   color: red;
+  opacity: 0.5;
 }

@@ -1,16 +1,16 @@
-.feynman__link {
-  position: absolute;
-  right: 48px;
-  top: 50%;
-  line-height: 51px;
-  font-size: 36px;
+.khan__buy-link {
+  margin: 0;
+  padding: 0;
+  line-height: 42px;
+  font-size: 30px;
   font-weight: normal;
+  margin: 0;
   text-decoration: none;
   color: #2f80ed;
   transition: opacity 1.5s ease;
 }
 
-.feynman__link:hover {
+.khan__buy-link:hover {
   text-decoration: underline;
   opacity: 0.5;
 }
