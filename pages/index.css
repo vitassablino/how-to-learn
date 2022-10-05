@@ -67,7 +67,7 @@
 @import url("../blocks/resources/__link/resources__link.css");
 @import url("../blocks/resources/__logo/resources__logo.css");
 
-section {
+/* section {
   border: 1px solid rgb(211, 16, 16);
 }
 
@@ -105,3 +105,4 @@ div {
 a {
   border: 1px solid rgb(211, 16, 16);
 }
+ */
