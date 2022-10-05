@@ -1,15 +1,11 @@
 .cards__item {
+  width: 240px;
   display: flex;
-  margin: 0 100px 0;
+  margin: 0 100px 0 0;
   flex-direction: column;
-  align-items: center;
   overflow: hidden;
 }
 
-.cards__item:last-of-type {
-  margin: 0;
-}
-
-.cards__item:first-of-type {
-  margin: 0;
+.cards__item:nth-child(3) {
+  margin-right: 0px;
 }
