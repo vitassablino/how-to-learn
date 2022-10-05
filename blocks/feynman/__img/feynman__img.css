@@ -4,9 +4,10 @@
   left: 0;
   width: 867px;
   height: 637px;
-  opacity: 0.8;
+  /*   opacity: 0.8; */
 }
 
-.feynman__img:hover {
+/* .feynman__img:hover {
   opacity: 1;
 }
+ */
