@@ -4,6 +4,7 @@
   margin: 0 100px 0 0;
   flex-direction: column;
   overflow: hidden;
+  padding-top: 60px;
 }
 
 .cards__item:nth-child(3) {

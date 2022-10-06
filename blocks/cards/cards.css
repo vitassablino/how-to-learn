@@ -3,4 +3,5 @@
   justify-content: flex-start;
   width: 920px;
   flex-wrap: wrap;
+  list-style: none;
 }

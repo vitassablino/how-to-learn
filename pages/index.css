@@ -67,42 +67,19 @@
 @import url("../blocks/resources/__link/resources__link.css");
 @import url("../blocks/resources/__logo/resources__logo.css");
 
-/* section {
-  border: 1px solid rgb(211, 16, 16);
-}
-
-p {
-  border: 1px solid rgb(211, 16, 16);
-}
-
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+li,
+ol,
+section,
+img,
+footer,
+div,
+a,
+p,
+section {
   border: 1px solid rgb(211, 16, 16);
 }
-
-h5 {
-  border: 1px solid rgb(211, 16, 16);
-}
-
-img {
-  border: 1px solid rgb(211, 16, 16);
-}
-
-footer {
-  border: 1px solid rgb(211, 16, 16);
-}
-
-ul {
-  border: 1px solid rgb(211, 16, 16);
-}
-
-div {
-  border: 1px solid rgb(211, 16, 16);
-}
-
-a {
-  border: 1px solid rgb(211, 16, 16);
-}
- */
